@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Ma page web</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://kit.fontawesome.com/ab22f9faf6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<section id="header">
+		<h1>JustStreamIt</h1>
+		<p>Accueil</p>
+		<p>Catégories</p>
+	</section>
+
+	<section id="best-movie">
+		<div id="information-best-movie">
+			<h1 id="title-best-movie">Titre meilleur film</h1>
+			<button id='button_play'>Play</button>
+			<p id="description_best_movie">Description...</p>
+		</div>
+		<div id="img-best-movie">
+			<img src="" id="img_movie_0" width="500" height="600">
+		</div>
+	</section>
+
+	<section id="best-movies">
+		<h1>Meilleurs film par catégories</h1>
+		<div class ="categorie" id="categorie-1">
+			<h2>Toutes catégories</h2>
+			<div class = "images-best-movie-categorie" id="images-best-movie-categorie-1"></div>
+		</div>
+		<div class ="categorie" id="categorie-2">
+			<h2>Action</h2>
+			<div class = "images-best-movie-categorie" id="images-best-movie-categorie-2"></div>
+		</div>
+		<div class ="categorie" id="categorie-3">
+			<h2>Comédie</h2>
+			<div class = "images-best-movie-categorie" id="images-best-movie-categorie-3"></div>
+		</div>
+		<div class ="categorie" id="categorie-4">
+			<h2>Guerre</h2>
+			<div class = "images-best-movie-categorie" id="images-best-movie-categorie-4"></div>
+		</div>
+	</section>
+
+	<div id="modal">
+		<div id="modal-wrapper">
+			<div id="information-best-movie-modal">
+				<h1>Titre de la video</h1>
+				<ul>
+					<li>Genre :</li>
+					<li>Années de sortie :</li>
+					<li>Rating :</li>
+					<li>Score imdb :</li>
+					<li>Producteurs :</li>
+					<li>Acteurs :</li>
+					<li>Durée :</li>
+					<li>Pays :</li>
+					<li>Moyenne des votes :</li>
+				</ul>
+				<p id="description-best-movie-modal"></p>
+			</div>
+			<img src="" id="image-best-movie-modal" width="400" height="600">
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>

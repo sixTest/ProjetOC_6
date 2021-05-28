@@ -1,0 +1,137 @@
+body
+{
+	background-color: #000;
+	margin:auto;
+	width:100%;
+}
+p, h1, h2
+{
+	color: #FFF;
+	font-style:italic;
+	font-family: cursive;
+}
+
+/* ------------------------------------------- */
+
+#header
+{
+	display: flex;
+	font-size: 150%;
+	background:rgba(69,69,69,0.6);
+}
+#header h1
+{
+	flex-grow: 2;
+}
+#header p
+{
+	flex-grow: 1;
+}
+/* ------------------------------------------- */
+
+#best-movie
+{
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+}
+#information-best-movie
+{
+	display: grid;
+	grid-template-rows: 1fr 1fr 2fr;
+}
+#description_best_movie
+{
+	font-size: 130%;
+}
+#img-best-movie
+{
+	justify-self:center;
+	padding-top: 20px;
+}
+#button_play
+{
+	background-color: #4CAF50; 
+	border: none;
+	color: white;
+	padding: 18px 36px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	justify-self:start;
+	align-self: start;
+}
+#information-best-movie h1
+{
+	font-size: 230%;
+}
+/* ------------------------------------------- */
+
+#best-movies
+{
+	display: grid;
+	grid-template-rows: 1fr 3fr 3fr 3fr;
+}
+.categorie
+{
+	display: grid;
+	grid-template-rows: 1fr 2fr;
+}
+#best-movies h1, h2
+{
+	justify-self:center;
+}
+.images-best-movie-categorie
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+/* ------------------------------------------- */
+
+#modal
+{
+	display: none;
+	position: fixed;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background:rgba(0,0,0,0.8);	
+}
+
+#modal-wrapper
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	overflow: auto;
+	margin: 5% auto;
+	width: 90%;
+	height: 90%;
+	background-color: #000;
+}
+#information-best-movie-modal, li, p
+{
+	color: #FFF;
+	font-style:italic;
+	font-family: cursive;
+}
+#description-best-movie-modal
+{
+	font-size: 130%;
+	padding-left: 15px;
+}
+#image-best-movie-modal
+{
+	justify-self:center;
+}
+
+/* ------------------------------------------- */
+.fas
+{
+	font-size: 350%;
+	color: #FFF;
+	align-self: center;
+	color:#4CAF50;
+	cursor: pointer;
+}
